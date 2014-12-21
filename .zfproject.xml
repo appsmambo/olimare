@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<projectProfile type="default" version="1.12.3">
+  <projectDirectory>
+    <projectProfileFile filesystemName=".zfproject.xml"/>
+    <applicationDirectory classNamePrefix="Application_">
+      <configsDirectory>
+        <applicationConfigFile type="ini"/>
+      </configsDirectory>
+      <controllersDirectory>
+        <controllerFile controllerName="Index">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Error"/>
+        <controllerFile controllerName="Inscripciones">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="registro"/>
+          <actionMethod actionName="pdf"/>
+        </controllerFile>
+        <controllerFile controllerName="SobreOlimare">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Informacion">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="reglamento"/>
+          <actionMethod actionName="basesDelConcurso"/>
+        </controllerFile>
+        <controllerFile controllerName="Contacto">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Recursos">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="bancoDePruebas"/>
+          <actionMethod actionName="solucionarios"/>
+        </controllerFile>
+        <controllerFile controllerName="Galeria">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Puntajes">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="ingreso"/>
+          <actionMethod actionName="reportes"/>
+          <actionMethod actionName="grabar"/>
+        </controllerFile>
+        <controllerFile controllerName="Login">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Estudiante">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="buscar"/>
+        </controllerFile>
+        <controllerFile controllerName="Reportes">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="institucion"/>
+          <actionMethod actionName="institucionSg"/>
+          <actionMethod actionName="estudiante"/>
+          <actionMethod actionName="estudianteSg"/>
+        </controllerFile>
+      </controllersDirectory>
+      <formsDirectory enabled="false"/>
+      <layoutsDirectory>
+        <layoutScriptsDirectory>
+          <layoutScriptFile layoutName="layout"/>
+        </layoutScriptsDirectory>
+      </layoutsDirectory>
+      <modelsDirectory>
+        <dbTableDirectory>
+          <dbTableFile dbTableName="Institucion"/>
+          <dbTableFile dbTableName="Representante"/>
+          <dbTableFile dbTableName="Tutor"/>
+          <dbTableFile dbTableName="Estudiante"/>
+          <dbTableFile dbTableName="Puntaje"/>
+        </dbTableDirectory>
+      </modelsDirectory>
+      <modulesDirectory enabled="false"/>
+      <servicesDirectory enabled="false"/>
+      <viewsDirectory>
+        <viewScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Error">
+            <viewScriptFile forActionName="error"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Inscripciones">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="SobreOlimare">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Informacion">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Informacion">
+            <viewScriptFile forActionName="reglamento"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Informacion">
+            <viewScriptFile forActionName="basesDelConcurso"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Contacto">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Inscripciones">
+            <viewScriptFile forActionName="registro"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Recursos">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Recursos">
+            <viewScriptFile forActionName="bancoDePruebas"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Recursos">
+            <viewScriptFile forActionName="solucionarios"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Galeria">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Puntajes">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Puntajes">
+            <viewScriptFile forActionName="ingreso"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Puntajes">
+            <viewScriptFile forActionName="reportes"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Inscripciones">
+            <viewScriptFile forActionName="pdf"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Estudiante">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Estudiante">
+            <viewScriptFile forActionName="buscar"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Puntajes">
+            <viewScriptFile forActionName="grabar"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Reportes">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Reportes">
+            <viewScriptFile forActionName="institucion"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Reportes">
+            <viewScriptFile forActionName="institucionSg"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Reportes">
+            <viewScriptFile forActionName="estudiante"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Reportes">
+            <viewScriptFile forActionName="estudianteSg"/>
+          </viewControllerScriptsDirectory>
+        </viewScriptsDirectory>
+        <viewHelpersDirectory/>
+        <viewFiltersDirectory enabled="false"/>
+      </viewsDirectory>
+      <bootstrapFile filesystemName="Bootstrap.php"/>
+    </applicationDirectory>
+    <dataDirectory enabled="false">
+      <cacheDirectory enabled="false"/>
+      <searchIndexesDirectory enabled="false"/>
+      <localesDirectory enabled="false"/>
+      <logsDirectory enabled="false"/>
+      <sessionsDirectory enabled="false"/>
+      <uploadsDirectory enabled="false"/>
+    </dataDirectory>
+    <docsDirectory>
+      <file filesystemName="README.txt"/>
+    </docsDirectory>
+    <libraryDirectory>
+      <zfStandardLibraryDirectory enabled="false"/>
+    </libraryDirectory>
+    <publicDirectory>
+      <publicStylesheetsDirectory enabled="false"/>
+      <publicScriptsDirectory enabled="false"/>
+      <publicImagesDirectory enabled="false"/>
+      <publicIndexFile filesystemName="index.php"/>
+      <htaccessFile filesystemName=".htaccess"/>
+    </publicDirectory>
+    <projectProvidersDirectory enabled="false"/>
+    <temporaryDirectory enabled="false"/>
+    <testsDirectory>
+      <testPHPUnitConfigFile filesystemName="phpunit.xml"/>
+      <testPHPUnitBootstrapFile filesystemName="bootstrap.php"/>
+      <testApplicationDirectory>
+        <testApplicationControllerDirectory>
+          <testApplicationControllerFile forControllerName="Index"/>
+        </testApplicationControllerDirectory>
+      </testApplicationDirectory>
+      <testLibraryDirectory/>
+    </testsDirectory>
+  </projectDirectory>
+</projectProfile>

@@ -1,0 +1,96 @@
+<form id="puntaje" class="form-horizontal" action="puntajes/ingreso" method="post" role="form">
+	<div class="form-group">
+		<label for="jurado" class="col-sm-3 control-label">*Nombre de Jurado</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control letras" id="jurado" name="jurado" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="ci" class="col-sm-3 control-label">C.I. Estudiante</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control" id="ci" name="ci" placeholder="Buscar">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="codigo" class="col-sm-3 control-label">Código Estudiante</label>
+		<div class="col-sm-9">
+			<input type="text" class="form-control" id="codigo" name="codigo" placeholder="Buscar">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-offset-3 col-sm-9">
+			<button id="buscarEstudiante" type="button" class="btn btn-primary">Buscar &nbsp;&nbsp;<img src="img/ajax-loader.gif" alt="" style="display:none"></button>
+		</div>
+	</div>
+	<div id="ingreso" style="display:none">
+		<hr>
+		<div class="table-responsive">
+			<table id="alumnos" class="table table-condensed">
+				<thead>
+					<tr>
+						<th>
+							CI
+						</th>
+						<th>
+							Apellidos
+						</th>
+						<th>
+							Nombres
+						</th>
+						<th>
+							Nivel
+						</th>
+						<th>
+							Código
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+		</div>
+		<fieldset style="display:none">
+			<input type="hidden" id="id" name="id">
+			<legend>Puntajes:</legend>
+			<div class="form-group">
+				<label for="razonamiento" class="col-xs-3 control-label">Razonamiento Lógico</label>
+				<div class="col-xs-2">
+					<input type="text" class="form-control numeros" id="razonamiento" required name="razonamiento">
+				</div>
+				<div class="col-xs-1">
+					<strong>/70</strong>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="operatoria" class="col-xs-3 control-label">Operatoria</label>
+				<div class="col-xs-2">
+					<input type="text" class="form-control numeros" id="operatoria" required name="operatoria">
+				</div>
+				<div class="col-xs-1">
+					<strong>/30</strong>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="total" class="col-xs-3 control-label">Total</label>
+				<div class="col-xs-2">
+					<input type="text" class="form-control numeros" id="total" required name="total">
+				</div>
+				<div class="col-xs-1">
+					<strong>/100</strong>
+				</div>
+			</div>
+			<p>
+				<strong>
+					1. Empate tiene prioridad el Razonamiento Lógico.<br>
+					2. Empate en Razonamiento Lógico, queda a consideración del jurado, calificando operatoria.
+				</strong>
+			</p>
+			<div class="form-group">
+				<div class="col-sm-offset-3 col-sm-9">
+					<button id="grabarPuntaje" type="submit" class="btn btn-primary">Grabar Puntaje</button>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+</form>

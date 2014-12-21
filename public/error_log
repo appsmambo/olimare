@@ -1,0 +1,17 @@
+[30-Mar-2014 22:15:03 CST6CDT] PHP Warning:  require_once(Zend/Application.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/solucion/public_html/clientes/olimare/index.php on line 18
+[30-Mar-2014 22:15:03 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Application.php' (include_path=':.:/usr/lib/php:/usr/local/lib/php') in /home/solucion/public_html/clientes/olimare/index.php on line 18
+[30-Mar-2014 22:18:37 CST6CDT] PHP Warning:  require_once(Zend/Application.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/solucion/public_html/clientes/olimare/index.php on line 18
+[30-Mar-2014 22:18:37 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Application.php' (include_path=':.:/usr/lib/php:/usr/local/lib/php') in /home/solucion/public_html/clientes/olimare/index.php on line 18
+[22-Jul-2014 21:15:19 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[22-Jul-2014 21:15:19 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[22-Jul-2014 21:15:32 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[22-Jul-2014 21:15:32 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:16:54 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:16:55 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:18:05 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:19:00 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:19:00 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:19:11 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[23-Jul-2014 22:19:11 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[24-Jul-2014 04:04:46 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
+[24-Jul-2014 04:04:46 UTC] PHP Warning:  Xdebug MUST be loaded as a Zend extension in Unknown on line 0
