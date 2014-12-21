@@ -112,7 +112,7 @@ class ReportesController extends Zend_Controller_Action
 		}
     }
 	
-	public function estudianteNivelAction()
+	public function estudianteGanadorAction()
     {
         $this->_helper->layout->disableLayout();
 		$this->_helper->viewRenderer->setNoRender(true);
@@ -123,7 +123,7 @@ class ReportesController extends Zend_Controller_Action
 		}
     }
 
-    public function estudianteNivelSgAction()
+    public function estudianteGanadorSgAction()
     {
         $this->_helper->layout->disableLayout();
 		$this->_helper->viewRenderer->setNoRender(true);
